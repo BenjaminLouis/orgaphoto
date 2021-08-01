@@ -21,8 +21,8 @@ This will fill the description of your package.
 # Describe your package
 fusen::fill_description(
   fields = list(
-    Title = "Rename and organise your photos",
-    Description = "Use helper functions to (smartly?) rename your photo and organise them in your computer.",
+    Title = "Rename and organize your photos",
+    Description = "Use helper functions to (smartly?) rename your photo and organize them in your computer.",
     `Authors@R` = c(
       person("Benjamin", "Louis", email = "contact@benjaminlouis-stat.fr", role = c("aut", "cre"))
     )
@@ -31,6 +31,20 @@ fusen::fill_description(
 # Define License with use_*_license()
 usethis::use_mit_license("Benjamin Louis")
 ```
+
+# Photos as example
+
+```{r development-0}
+usethis::use_directory("inst/img")
+```
+
+Once `{orgaphoto}` is installed, you can access to a folder with examples of photos to organize.
+
+```{r}
+# Path to the directory
+system.file("img", package = "orgaphoto")
+```
+
 
 # My function
 
