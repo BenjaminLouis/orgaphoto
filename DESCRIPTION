@@ -1,0 +1,13 @@
+Package: orgaphoto
+Version: 0.0.0.9000
+Title: Rename And Organise Your Photos
+Description: Use helper functions to (smartly?) rename your photo and organise them in your computer.
+Authors@R: person(given = "Benjamin",
+       family = "Louis",
+       role = c("aut", "cre"),
+       email = "contact@benjaminlouis-stat.fr")
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
